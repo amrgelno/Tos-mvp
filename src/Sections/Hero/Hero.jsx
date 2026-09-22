@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="heroImg">
             <img src={heroImg} alt="" />
         </div>
-        <div className="heroContent sm:text-center md:text-right flex flex-col sm:items-center md:items-end gap-8">
+        <div className="heroContent text-center md:text-right flex flex-col items-center md:items-end gap-8">
             <p className="heroTitle text-3xl font-bold">نظام إدارة شركة السياحة الدينية (محاسبي + CRM )</p>
             <p className="heroText text-lg font-medium">يهدف النظام إلى إدارة العمليات المالية و الإدارية لشركة السياحة الدينية بشكل متكامل. </p>
             <p className="heroBtn text-xl">Try By Yourself</p>

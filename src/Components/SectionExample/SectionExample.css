@@ -10,10 +10,10 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-.sectionCard:nth-child(odd){
+.sectionCard:nth-child(even){
     background: #F4F4F4;
 }
-.sectionCard:nth-child(even){
+.sectionCard:nth-child(odd){
     background: #FBEEFF;
 }
 

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+}
+
+.c{
+    margin: 2rem 5rem;
+}
+.sectionTitle{
+    width: 100%;
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.sectionTitle::before{
+    content: "";
+    flex-basis: 30%;
+    display: block;
+    height: 6px;
+    background: #333;
+}
+.sectionTitle::after{
+    content: "";
+    display: block;
+    flex-basis: 30%;
+    height: 6px;
+    background: #333;
+}

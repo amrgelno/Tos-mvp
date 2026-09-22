@@ -2,6 +2,9 @@
     padding: .5rem 9rem;
     background: #f4f4f4;
     border-radius: 0 0 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
 }
 .logo_c{
     width: 4rem;

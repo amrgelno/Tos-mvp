@@ -3,3 +3,22 @@
     border-radius: 2rem;
     background: #F5F5F5;
 }
+.sectionCards_c{
+    direction: rtl;
+}
+.sectionCard{
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.sectionCard:nth-child(odd){
+    background: #F4F4F4;
+}
+.sectionCard:nth-child(even){
+    background: #FBEEFF;
+}
+
+.sectionCardList{
+    list-style-type: square;
+    direction: rtl;
+    text-align: right;
+}

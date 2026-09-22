@@ -7,6 +7,10 @@
     font-family: "Tajawal", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .c{
     margin: 2rem 5rem;
 }
@@ -17,7 +21,6 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    font-size: 1.8rem;
     font-weight: 600;
 }
 .sectionTitle::before{
@@ -33,4 +36,13 @@
     flex-basis: 30%;
     height: 6px;
     background: #333;
+}
+
+@media (max-width:750px){
+    .c{
+        margin: 2rem 1.5rem;
+    }
+    .sectionTitle{
+        gap: .5rem;
+    }
 }

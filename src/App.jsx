@@ -27,6 +27,13 @@ function App() {
         sectionCardTitle = "إدارة الحسابات البنكية"    
         sectionCardListItem = {financeSystemCardData}    
     />
+    <SectionExample 
+        title="CRM SYSTEM"
+        LargeCardTitle = "نظام إدارة العملاء"    
+        LargeCardText = "مسؤول عن إدارة جميع التعاملات المالية داخل الشركة, بما يشمل الاإيرادات, المصروفات, و أرصدة البنوك والخزائن, بالإضافة إلى إصدار إيصالات استلام العملاء"    
+        sectionCardTitle = "إدارة الحسابات البنكية"    
+        sectionCardListItem = {financeSystemCardData}    
+    />
     </>
   )
 }

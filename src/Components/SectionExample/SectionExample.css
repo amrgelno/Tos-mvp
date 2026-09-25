@@ -1,7 +1,10 @@
+.sectionTitle{
+    padding: 2rem 0 0 0;
+}
+
 .sectionLargeCard{
     padding: 4rem;
     border-radius: 2rem;
-    background: #F5F5F5;
 }
 .sectionCards_c{
     direction: rtl;
@@ -21,4 +24,13 @@
     list-style-type: square;
     direction: rtl;
     text-align: right;
+}
+.sectionBtn{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    transition: all .2s;
+}
+.sectionBtn:hover{
+    background: #d2d2d2;
+    color: #333;
 }

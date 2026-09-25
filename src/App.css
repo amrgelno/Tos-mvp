@@ -10,9 +10,25 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    min-height: 100vh;
+    color: #fff;
+    background: linear-gradient(135deg, #0c0c0c, #1a1a2e 15%, #16213e 35%, #0f3460 50%, #533a7d 70%, #8b5a8c, #a0616a) no-repeat;
+}
+
+.g-btn {
+    color: #fff;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
 
 .c{
     margin: 2rem 5rem;
+}
+.nav>svg{
+    display: none;
 }
 .sectionTitle{
     width: 100%;
@@ -28,14 +44,14 @@ html{
     flex-basis: 30%;
     display: block;
     height: 6px;
-    background: #333;
+    background: #f2f2f2;
 }
 .sectionTitle::after{
     content: "";
     display: block;
     flex-basis: 30%;
     height: 6px;
-    background: #333;
+    background: #f2f2f2;
 }
 
 .footer{
@@ -44,10 +60,55 @@ html{
 }
 
 @media (max-width:750px){
+    .nav{
+        position: fixed;
+        top: 0;
+        align-items: start;
+        padding: 4rem 2rem !important;
+        flex-direction: column !important;
+        z-index: 99;
+        background: rgb(76 76 76 / 92%);
+        width: 70% !important;
+        height: 100%;
+    }
+    .nav>svg{
+        display: block;
+        position: absolute;
+    }
+    .navOpenIcon{
+        position: fixed;
+        top: 1rem;
+        right: -15%;
+        background: #333;
+        padding: .5rem;
+        font-size: 2rem;
+    }
+    .navCloseIcon{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    .navList{
+        flex-direction: column !important;
+    }
+
+
+
     .c{
         margin: 2rem 1.5rem;
     }
+    .heroContainer{
+        padding: 2rem !important;
+    }
+    .heroLeft, .heroRight{
+        width: calc(100% - 4rem) !important;
+    }
     .sectionTitle{
         gap: .5rem;
+    }
+}
+@media (min-width:750px){
+    .nav .navOpenIcon, .nav .navCloseIcon{
+        display: none !important;
     }
 }

@@ -1,10 +1,10 @@
 .nav{
     padding: .5rem 9rem;
-    background: #f4f4f4;
     border-radius: 0 0 1rem 1rem;
-    position: fixed;
     width: 100%;
-    border-bottom: 1px solid #e4e4e4;
+}
+.nav a{
+    color: #fff;
 }
 .logo_c{
     width: 4rem;
@@ -13,7 +13,7 @@
 }
 .navListItem{
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 .navListItemText{
@@ -22,4 +22,19 @@
 }
 .navListItemText:hover{
     border-bottom: 2px solid #333
+}
+.navHandler{
+    transition: all .3s;
+}
+.openNavHandler{
+    left: 0;
+}
+.closeNavHandler{
+    left: -70%;
+}
+.barHidden{
+    display: none !important;
+}
+.barShow{
+    display: block !important;
 }

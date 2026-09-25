@@ -1,0 +1,23 @@
+.pageLargeCard{
+    padding: 4rem;
+    border-radius: 2rem;
+    background: #F5F5F5;
+}
+.pageCards_c{
+    direction: rtl;
+}
+.pageCard{
+    padding: 2rem;
+    border-radius: 1rem;
+}
+/* .pageCard:nth-child(even)
+} */
+.pageCard:nth-child(odd){
+    background: rgba(197, 197, 197, 0.15);
+}
+
+.pageCardList{
+    list-style-type: square;
+    direction: rtl;
+    text-align: right;
+}

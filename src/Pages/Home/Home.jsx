@@ -7,6 +7,14 @@ export default function Home() {
     <>
         <Hero/>
         <SectionExample 
+            tag="crmSystem"
+            title="CRM SYSTEM"
+            LargeCardTitle = "نظام إدارة العملاء"    
+            LargeCardText = "يتيح النظام إدارة قاعدة بيانات متكاملة لجميع العملاء والمستفيدين من خدمات الشركة، سواء حجزوا فعليًا أو لم يحجزوا بعد. يستخدم النظام التسجيل بيانات العملاء، متابعة حالتهم المالية والإدارية، وربطهم بالحجوزات والإيصالات والتقارير المختلفة"
+            LargeCardBtn="Read More"
+            LargeCardLink="/crmSystem"
+        />  
+        <SectionExample 
             tag="financeSystem"
             title="FINANCE SYSTEM"
             LargeCardTitle = "النظام  المحاسبي"    
@@ -14,15 +22,7 @@ export default function Home() {
             sectionCardTitle = "إدارة الحسابات البنكية"    
             LargeCardBtn="Read More"
             LargeCardLink="/financeSystem"
-        />
-        <SectionExample 
-            tag="crmSystem"
-            title="CRM SYSTEM"
-            LargeCardTitle = "نظام إدارة العملاء"    
-            LargeCardText = "يتيح النظام إدارة قاعدة بيانات متكاملة لجميع العملاء والمستفيدين من خدمات الشركة، سواء حجزوا فعليًا أو لم يحجزوا بعد. يستخدم النظام التسجيل بيانات العملاء، متابعة حالتهم المالية والإدارية، وربطهم بالحجوزات والإيصالات والتقارير المختلفة"
-            LargeCardBtn="Read More"
-            LargeCardLink="/crmSystem"
-        />    
+        />  
     </>
   )
 }

@@ -125,20 +125,6 @@ function App() {
         <Route path='/crmSystem' element={<PageExample pageCardListItem = {crmSystemCardData}/>} />
       </Routes>
     </Router>
-    
-    
-
-
-
-
-    {/* <PageExample 
-        tag="crmSystem"
-        title="CRM SYSTEM"
-        LargeCardTitle = "نظام إدارة العملاء"    
-        LargeCardText = "يتيح النظام إدارة قاعدة بيانات متكاملة لجميع العملاء والمستفيدين من خدمات الشركة، سواء حجزوا فعليًا أو لم يحجزوا بعد. يستخدم النظام التسجيل بيانات العملاء، متابعة حالتهم المالية والإدارية، وربطهم بالحجوزات والإيصالات والتقارير المختلفة"
-        pageCardListItem = {crmSystemCardData}    
-    /> */
-    }
     <p className='footer g-btn bg-gray-200'>Copyright All Reserved 2026</p>
     </>
     

@@ -19,9 +19,16 @@ export default function Home() {
             title="FINANCE SYSTEM"
             LargeCardTitle = "النظام  المحاسبي"    
             LargeCardText = "مسؤول عن إدارة جميع التعاملات المالية داخل الشركة, بما يشمل الاإيرادات, المصروفات, و أرصدة البنوك والخزائن, بالإضافة إلى إصدار إيصالات استلام العملاء"    
-            sectionCardTitle = "إدارة الحسابات البنكية"    
             LargeCardBtn="Read More"
             LargeCardLink="/financeSystem"
+        />  
+        <SectionExample 
+            tag="umreSystem"
+            title="UMRE SYSTEM"
+            LargeCardTitle = "إدارة أﺳﻌﺎر اﻟﻌﻣرة واﻟﺣﺞ" 
+            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض وأﺳﻌﺎر العمرة و الحج ﺑﺷﻛل ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
+            LargeCardBtn="Read More"
+            LargeCardLink="/umreSystem"
         />  
     </>
   )

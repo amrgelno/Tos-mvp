@@ -113,6 +113,24 @@ function App() {
       ]
     ]
   ]
+  const umreSystemCardData =  [
+    [
+      [
+        "إﻋداد اﻷﺳﻌﺎر اﻷﺳﺎﺳﯾﺔ",
+        [
+          "ﺗﺣدﯾد ﺳﻌر اﻟﺑرﻧﺎﻣﺞ ﻟﻛل ﻧوع رﺣﻠﺔ (ﻋﻣرة – ﺣﺞ).",
+          "تحديد مستويات الخدمة (اقتصادي – 4 نجوم – 5 نجوم)",
+          "إدخال تفاصيل السعر: ﺗﻛﻠﻔﺔ اﻟﻔرد اﻟواﺣد - ﺗﻛﻠﻔﺔ اﻟﻐرﻓﺔ اﻟﻣﻔردة / اﻟﻣزدوﺟﺔ / اﻟﺛﻼﺛﯾﺔ - ﺗﻛﻠﻔﺔ اﻟﻣواﺻﻼت (إن وﺟدت) -  ﺗﻛﻠﻔﺔ اﻟﺧدﻣﺎت اﻹﺿﺎﻓﯾﺔ (تأشيرة – تأمين – طيران – إﻟﺦ.)",
+        ]
+      ],
+      [
+        "رﺑط اﻷﺳﻌﺎر ﺑﺎﻟرﺣﻼت",
+        [
+          "النظام يحسب تلقائيا ﺗﻛﻠﻔﺔ العميل الإجمالية بناءً على البنامج وعدد الأفراد.",
+        ]
+      ],
+    ]
+  ]
 
 
   return (
@@ -121,8 +139,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/financeSystem' element={<PageExample pageCardListItem = {financeSystemCardData}/>} />
-        <Route path='/crmSystem' element={<PageExample pageCardListItem = {crmSystemCardData}/>} />
+        <Route path='/financeSystem' element={<PageExample pageTitle="Finance System" pageCardListItem = {financeSystemCardData}/>} />
+        <Route path='/crmSystem' element={<PageExample pageTitle="Crm System" pageCardListItem = {crmSystemCardData}/>} />
+        <Route path='/umreSystem' element={<PageExample pageTitle="Umre System" pageCardListItem = {umreSystemCardData}/>} />
       </Routes>
     </Router>
     <p className='footer g-btn bg-gray-200'>Copyright All Reserved 2026</p>

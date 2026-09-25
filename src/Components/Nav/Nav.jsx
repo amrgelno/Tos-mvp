@@ -42,7 +42,7 @@ export default function Nav() {
             <li className="navListItem"><a href="/" className="navListItemText">Home</a></li>
             <li className="navListItem"><a href="/financeSystem" className="navListItemText">Finance System</a></li>
             <li className="navListItem"><a href="/crmSystem" className="navListItemText">Crm System</a></li>
-            <li className="navListItem"><a href="/" className="navListItemText">About</a></li>
+            <li className="navListItem"><a href="/umreSystem" className="navListItemText">Umre System</a></li>
         </ul>
     </div>
   )

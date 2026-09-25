@@ -118,7 +118,7 @@ function App() {
   return (
     <>
     <Nav/>
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/financeSystem' element={<PageExample pageCardListItem = {financeSystemCardData}/>} />

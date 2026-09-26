@@ -15,8 +15,8 @@ export default function PageExample(props) {
                   width="900"
                   height="500"
                   title="Example Embed"
-                  allow="accelerometer; encrypted-media; gyroscope"
-                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 />
                 :
                 ""}

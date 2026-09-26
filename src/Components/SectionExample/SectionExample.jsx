@@ -7,9 +7,9 @@ export default function SectionExample(props) {
         <p className="sectionTitle sectionExampleTitle sm:text-lg md:text-2xl">
             {props.title}
         </p>
-        <div className="sectionLargeCard g-btn flex sm:flex-col md:flex-row">
-            <div className="sectionLargeCardVideo_c">
-                
+        <div className="sectionLargeCard g-btn flex flex-col md:flex-row-reverse items-center gap-8">
+            <div className="sectionLargeCardVideo_c sm:w-full md:w-1/2">
+                <img src={props.thumb} alt="" />
             </div>
             <div className="sectionLargeCardContent_c flex items-end flex-col gap-4 sm:w-full md:w-1/2">
                 <p className="sectionLargeCardTitle text-2xl font-medium">{props.LargeCardTitle}</p>

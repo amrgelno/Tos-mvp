@@ -139,9 +139,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/financeSystem' element={<PageExample pageTitle="Finance System" pageCardListItem = {financeSystemCardData}/>} />
-        <Route path='/crmSystem' element={<PageExample pageTitle="Crm System" pageCardListItem = {crmSystemCardData}/>} />
-        <Route path='/umreSystem' element={<PageExample pageTitle="Umre System" pageCardListItem = {umreSystemCardData}/>} />
+        <Route path='/financeSystem' element={<PageExample pageTitle="Finance System" pageCardListItem = {financeSystemCardData} iframeLink="https://www.youtube.com/embed/z9KsAhVDCHQ?si=AvY4jTMlMsMx9vHk"/>}  />
+        <Route path='/crmSystem' element={<PageExample pageTitle="Crm System" pageCardListItem = {crmSystemCardData} iframeLink="https://www.youtube.com/embed/q9Ez8Ytx5uc?si=FHgkaTP7PU01-rxG"/>} />
+        <Route path='/umreSystem' element={<PageExample pageTitle="Umre System" pageCardListItem = {umreSystemCardData} iframeLink=""/>} />
       </Routes>
     </Router>
     <p className='footer g-btn bg-gray-200'>Copyright All Reserved 2026</p>

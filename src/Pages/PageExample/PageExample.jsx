@@ -44,8 +44,8 @@ export default function PageExample(props) {
             tag="umreSystem"
             title="إدارة الاسعار للعروض سياحية"
             LargeCardTitle = "إدارة أﺳﻌﺎر" 
-            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض وأﺳﻌﺎر العمرة و الحج ﺑﺷﻛل ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
-            LargeCardBtn="Read More"
+            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض الاسعار سياحية ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
+            
             LargeCardLink="/umreSystem"
             />
             :""

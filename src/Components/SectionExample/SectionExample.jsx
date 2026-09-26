@@ -22,7 +22,9 @@ export default function SectionExample(props) {
                 }>
                 <p className="sectionLargeCardTitle text-2xl font-medium">{props.LargeCardTitle}</p>
                 <p className="sectionLargeCardText text-lg">{props.LargeCardText}</p>
-                    <a className="sectionBtn g-btn w-fit" href={props.LargeCardLink}>{props.LargeCardBtn}</a>
+                {
+                    props.LargeCardBtn?<a className="sectionBtn g-btn w-fit" href={props.LargeCardLink}>{props.LargeCardBtn}</a>:""
+                }
             </div>
         </div>
     </div>

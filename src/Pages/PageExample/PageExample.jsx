@@ -43,7 +43,7 @@ export default function PageExample(props) {
             <SectionExample 
             tag="umreSystem"
             title="UMRE SYSTEM"
-            LargeCardTitle = "إدارة أﺳﻌﺎر اﻟﻌﻣرة واﻟﺣﺞ" 
+            LargeCardTitle = "إدارة أﺳﻌﺎر" 
             LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض وأﺳﻌﺎر العمرة و الحج ﺑﺷﻛل ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
             LargeCardBtn="Read More"
             LargeCardLink="/umreSystem"

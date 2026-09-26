@@ -140,7 +140,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/financeSystem' element={<PageExample pageTitle="Finance System" pageCardListItem = {financeSystemCardData} iframeLink="https://www.youtube.com/embed/z9KsAhVDCHQ?si=AvY4jTMlMsMx9vHk"/>}  />
-        <Route path='/crmSystem' element={<PageExample pageTitle="Crm System" pageCardListItem = {crmSystemCardData} iframeLink="https://www.youtube.com/embed/q9Ez8Ytx5uc?si=FHgkaTP7PU01-rxG"/>} />
+        <Route path='/crmSystem' element={<PageExample addSection={true} pageTitle="Crm System" pageCardListItem = {crmSystemCardData} iframeLink="https://www.youtube.com/embed/q9Ez8Ytx5uc?si=FHgkaTP7PU01-rxG"/>} />
         <Route path='/umreSystem' element={<PageExample pageTitle="Umre System" pageCardListItem = {umreSystemCardData} iframeLink=""/>} />
       </Routes>
     </Router>

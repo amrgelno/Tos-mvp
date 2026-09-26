@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./PageExample.css"
+import { SectionExample } from "../../Components";
 
 export default function PageExample(props) {
+    
   return (
     
     <div id={props.tag} className="c section_c pageExample flex flex-col justify-center gap-5 text-right">
@@ -36,6 +38,18 @@ export default function PageExample(props) {
                     }
                 </div>
             ))}
+            {props.addSection
+            ?
+            <SectionExample 
+            tag="umreSystem"
+            title="UMRE SYSTEM"
+            LargeCardTitle = "إدارة أﺳﻌﺎر اﻟﻌﻣرة واﻟﺣﺞ" 
+            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض وأﺳﻌﺎر العمرة و الحج ﺑﺷﻛل ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
+            LargeCardBtn="Read More"
+            LargeCardLink="/umreSystem"
+            />
+            :""
+            }
     </div>
   )
 }

@@ -25,15 +25,7 @@ export default function Home() {
             LargeCardBtn="Read More"
             LargeCardLink="/financeSystem"
             thumb={thumb_2}
-        />  
-        <SectionExample 
-            tag="umreSystem"
-            title="UMRE SYSTEM"
-            LargeCardTitle = "إدارة أﺳﻌﺎر اﻟﻌﻣرة واﻟﺣﺞ" 
-            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض وأﺳﻌﺎر العمرة و الحج ﺑﺷﻛل ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
-            LargeCardBtn="Read More"
-            LargeCardLink="/umreSystem"
-        />  
+        />    
     </>
   )
 }

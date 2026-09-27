@@ -17,7 +17,13 @@
         "Responsible for managing all financial transactions within the company—including revenue, expenses, and bank and cash balances—as well as issuing customer receipts.",        "Read More",
         "/financeSystem"
     ],
-
+    "umreSection_1":[
+        "umreSystem",
+        "Price Management for Tourism Offers",
+        "Price Management" ,
+        "The system enables the management of flexible and constantly updated tourism price offers, with the ability to link prices to specific trips or seasons.",
+        "/umreSystem"
+    ],
     "financeSystemCardData":[
     [
       [

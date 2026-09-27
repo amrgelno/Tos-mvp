@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./PageExample.css"
 import { SectionExample } from "../../Components";
+import { useTranslation } from 'react-i18next';
 
 export default function PageExample(props) {
-    
+    const {t} = useTranslation()
   return (
     
     <div id={props.tag} className="c section_c pageExample flex flex-col justify-center gap-5 text-right">
@@ -41,12 +42,11 @@ export default function PageExample(props) {
             {props.addSection
             ?
             <SectionExample 
-            tag="umreSystem"
-            title="إدارة الاسعار للعروض سياحية"
-            LargeCardTitle = "إدارة أﺳﻌﺎر" 
-            LargeCardText = "يسمح اﻟﻧظﺎم ﺑﺈدارة ﻋروض الاسعار سياحية ﻣرن وﻣﺣدث دائما، ﻣﻊ إمكانية رﺑط اﻷﺳﻌﺎر بالرحلات أو المواسم المختلفة."
-            
-            LargeCardLink="/umreSystem"
+            tag={t("umreSection_1")[0]}
+            title={t("umreSection_1")[1]}
+            LargeCardTitle = {t("umreSection_1")[2]}
+            LargeCardText = {t("umreSection_1")[3]}
+            LargeCardLink={t("umreSection_1")[4]}
             />
             :""
             }

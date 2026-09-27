@@ -14,7 +14,7 @@ i18n
   .use(initReactI18next)
   .init({
     lng: selectedLanguage,
-    fallbackLng: "ar",
+    fallbackLng: "en",
     returnObjects:true,
     resources: {
       ar: {

@@ -1,5 +1,5 @@
 import "./Home.css"
-import {Hero} from "../../Sections/index"
+import {Hero, KeyFeatures} from "../../Sections/index"
 import { SectionExample } from "../../Components"
 import thumb_1 from "../../assets/images/video_thumb_1.jpeg"
 import thumb_2 from "../../assets/images/video_thumb_2.jpeg"
@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <>
         <Hero/>
+        <KeyFeatures />
         <SectionExample 
             tag={homeSection_1[0]}
             title={homeSection_1[1]}

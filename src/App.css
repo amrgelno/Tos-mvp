@@ -27,9 +27,6 @@ body{
 .c{
     margin: 2rem 5rem;
 }
-.nav>svg{
-    display: none;
-}
 .sectionTitle{
     width: 100%;
     display: flex;
@@ -59,41 +56,33 @@ body{
     text-align: center;
 }
 
+
+.navHandler{
+    transition: all .3s;
+}
+.openNavHandler{
+    left: 0;
+}
+.closeNavHandler{
+    left: -70%;
+}
+.barHidden{
+    display: none !important;
+}
+.barShow{
+    display: block !important;
+}
+
 @media (max-width:750px){
     .nav{
-        position: fixed;
-        top: 0;
-        align-items: start;
-        padding: 4rem 2rem !important;
-        flex-direction: column !important;
-        z-index: 99;
-        background: rgb(76 76 76 / 92%);
-        width: 70% !important;
-        height: 100%;
+        padding: .5rem 2rem !important;
     }
-    .nav>svg{
-        display: block;
-        position: absolute;
+    .nav .navList{
+        display: none;
     }
-    .navOpenIcon{
-        position: fixed;
-        top: 1rem;
-        right: -15%;
-        background: #333;
-        padding: .5rem;
-        font-size: 2rem;
+    .logo_c{
+        width: 3rem !important;
     }
-    .navCloseIcon{
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-    }
-    .navList{
-        flex-direction: column !important;
-    }
-
-
-
     .c{
         margin: 2rem 1.5rem;
     }
@@ -105,6 +94,9 @@ body{
     }
     .sectionTitle{
         gap: .5rem;
+    }
+    .keyFeatures .DCard{
+        width: 100%;
     }
 }
 @media (min-width:750px){

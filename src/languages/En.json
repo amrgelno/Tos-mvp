@@ -1,7 +1,15 @@
 {
-    "navList":["Home", "Finance System", "CRM System"],
+    "navList":["Home", "Finance System", "CRM System", "ScreenShots"],
     "heroTitle":"Tourism Company Management System (Accounting + CRM)",
     "heroText":"The system aims to manage the financial and administrative operations of the religious tourism company in an integrated manner.",
+    "screenShotsBtn":"Screenshots",
+    "keyFeatures":[
+      ["<TbReportAnalytics />","Structured reports:","Schedule and manage your reports regularly and in an organized manner."],
+      ["<MdOutlineDesignServices />","Simple and flexible:","Designed for ease of use with a clean and intuitive interface."],
+      ["<IoMdTime />","Real-time monitoring:","Track your financial activity anytime, anywhere."],
+      ["<MdOutlineSecurity />","Security and Oversight:","Robust protection and monitoring for your system."],
+      ["<HiOutlineRocketLaunch />","Fast and accurate:","It delivers high speed and precise performance."]
+    ],
     "homeSection_1":[
         "crmSystem",
         "CRM SYSTEM",

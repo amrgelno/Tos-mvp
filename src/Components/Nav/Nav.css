@@ -11,6 +11,13 @@
     max-width: 5rem;
     padding: .2rem;
 }
+.navOpenIcon{
+    background: #333;
+    padding: .5rem !important;
+    font-size: 2rem;
+}
+.navOpenIcon{
+}
 .navListItem{
     color: #333;
     font-size: 1.4rem;
@@ -22,19 +29,4 @@
 }
 .navListItemText:hover{
     border-bottom: 2px solid #333
-}
-.navHandler{
-    transition: all .3s;
-}
-.openNavHandler{
-    left: 0;
-}
-.closeNavHandler{
-    left: -70%;
-}
-.barHidden{
-    display: none !important;
-}
-.barShow{
-    display: block !important;
 }

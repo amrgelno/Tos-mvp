@@ -1,0 +1,21 @@
+.mobileNav_c *{
+    color: #fff;
+}
+.mobileNav_c{
+    transition: all .2s;
+    background: #818181;
+    height: 100%;
+    width: 70%;
+    padding: 4rem 2rem;
+    position: fixed;
+    z-index: 99;
+}
+.mobileNav_c .logo_c{
+    width: 5rem;
+}
+.navCloseIcon{
+    position: absolute;
+    top: 1rem;
+    Right: 1rem;
+    font-size: 1.5rem;
+}

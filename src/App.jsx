@@ -1,7 +1,7 @@
 
 import './App.css'
-import {Nav, SectionExample} from "./Components/index"
-import { Home, PageExample} from './Pages/index';
+import {MobileNav, Nav, SectionExample} from "./Components/index"
+import { Home, PageExample, ScreenShots} from './Pages/index';
 import { useTranslation } from 'react-i18next';
 
 
@@ -125,13 +125,14 @@ function App() {
 
   return (
     <>
+    <MobileNav />
     <Nav/>
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/financeSystem' element={<PageExample pageTitle="Finance System" pageCardListItem = {financeSystemCardData} iframeLink="https://www.youtube.com/embed/z9KsAhVDCHQ?cc_load_policy=1&cc_lang_pref=en&hl=en"/>}  />
         <Route path='/crmSystem' element={<PageExample addSection={true} pageTitle="CRM System" pageCardListItem = {crmSystemCardData} iframeLink="https://www.youtube.com/embed/q9Ez8Ytx5uc?cc_load_policy=1&cc_lang_pref=en&hl=en"/>} />
-        {/* <Route path='/umreSystem' element={<PageExample pageTitle="Umre System" pageCardListItem = {umreSystemCardData} iframeLink=""/>} /> */}
+        <Route path='/screenShots' element={<ScreenShots />} />
       </Routes>
     </Router>
     <p className='footer g-btn bg-gray-200'>Copyright All Reserved 2026</p>

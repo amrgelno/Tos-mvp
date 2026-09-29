@@ -11,7 +11,8 @@
     z-index: 99;
 }
 .mobileNav_c .logo_c{
-    width: 5rem;
+    width: 5rem !important;
+    max-width: 5rem;
 }
 .navCloseIcon{
     position: absolute;

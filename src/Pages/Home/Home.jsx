@@ -1,5 +1,5 @@
 import "./Home.css"
-import {Hero, KeyFeatures} from "../../Sections/index"
+import {Hero, KeyFeatures, Mainfeatures, UnderDevelopment} from "../../Sections/index"
 import { SectionExample } from "../../Components"
 import thumb_1 from "../../assets/images/video_thumb_1.jpeg"
 import thumb_2 from "../../assets/images/video_thumb_2.jpeg"
@@ -15,6 +15,7 @@ export default function Home() {
     <>
         <Hero/>
         <KeyFeatures />
+        <Mainfeatures />
         <SectionExample 
             tag={homeSection_1[0]}
             title={homeSection_1[1]}
@@ -32,7 +33,8 @@ export default function Home() {
             LargeCardBtn={homeSection_2[4]}
             LargeCardLink={homeSection_2[5]}
             thumb={thumb_2}
-        />    
+        /> 
+        <UnderDevelopment />   
     </>
   )
 }

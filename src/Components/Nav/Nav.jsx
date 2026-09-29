@@ -57,7 +57,7 @@ export default function Nav() {
             <li className="navListItem"><a href="/screenShots" className="navListItemText">{t("navList")[3]}</a></li>
         </ul>
         <div className="dropdown">
-          <button className="dropdown-btn flex items-center gap-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button className="dropdown-btn flex items-center gap-3 text-lg font-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <FaEarthAfrica /> <span>Languages</span>
           </button>
           <ul className="dropdown-menu">

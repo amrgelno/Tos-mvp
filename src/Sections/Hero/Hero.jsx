@@ -9,7 +9,7 @@ export default function Hero() {
 
 <div className="CP heroContainer g-btn lex flex-col lg:flex-row justify-between items-center gap-3">
         <div className="heroRight">
-          <img src={heroImg} alt="" />
+          <img src={heroImg} alt="" loading="lazy"/>
         </div>
         <div className="heroLeft text-center lg:text-right flex flex-col items-center lg:items-end gap-8">
           <p className="heroTitle text-3xl font-bold">{t("heroTitle")}</p>

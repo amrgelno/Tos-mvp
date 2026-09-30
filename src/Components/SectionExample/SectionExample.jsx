@@ -11,7 +11,7 @@ export default function SectionExample(props) {
             {props.thumb
             ?
             <div className="sectionLargeCardVideo_c sm:w-full md:w-1/2">
-                <img src={props.thumb} alt="" />
+                <img src={props.thumb} alt="" loading="lazy"/>
             </div>
             :
             ""

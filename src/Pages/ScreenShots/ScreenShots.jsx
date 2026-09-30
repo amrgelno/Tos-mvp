@@ -17,7 +17,7 @@ export default function ScreenShots() {
     <div className='c screenShots_c grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
       {
         images.map((item,i)=>{
-          return   <div className="img_c"><img key={i} src={item} alt="" /></div>
+          return   <div className="img_c"><img key={i} src={item} alt="" loading="lazy"/></div>
         })
       }
     </div>

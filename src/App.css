@@ -90,13 +90,19 @@ body{
         padding: 2rem !important;
     }
     .heroLeft, .heroRight{
-        width: calc(100% - 4rem) !important;
+        width: calc(100% - 3rem) !important;
     }
     .sectionTitle{
         gap: .5rem;
     }
     .DCard{
         width: 100% !important;
+    }
+}
+
+@media all and (max-width: 992px){
+    .heroLeft, .heroRight{
+       width: calc(100% - 3rem) !important;
     }
 }
 @media (min-width:750px){

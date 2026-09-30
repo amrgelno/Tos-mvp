@@ -28,8 +28,11 @@
     height: 100%;
     width: auto;
 }
-.heroLeft, .heroRight{
-    width: calc(50% - 4rem);
+.heroRight{
+    width: calc(40% - 3rem);
+}
+.heroLeft{
+    width: calc(60% - 3rem);
 }
 .heroTitle{
     font-weight: 600;
@@ -50,7 +53,7 @@
     color: #626262;
 }
 .heroInfoBtn{
-    background: #eaeaea1f;
+    background: #7443f15a;
     border-radius: 2rem;
     padding: .5rem 1rem;
 }

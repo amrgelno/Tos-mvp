@@ -135,7 +135,7 @@ function App() {
         <Route path='/screenShots' element={<ScreenShots />} />
       </Routes>
     </Router>
-    <p className='footer g-btn bg-gray-200'>Copyright All Reserved 2026</p>
+    <p className='footer g-btn bg-gray-200'>Copyright All Reserved {new Date().getFullYear()}</p>
     </>
     
   )

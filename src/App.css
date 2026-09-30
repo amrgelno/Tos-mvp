@@ -38,7 +38,7 @@ body{
 }
 .sectionTitle::before{
     content: "";
-    flex-basis: 30%;
+    flex-basis: 25%;
     display: block;
     height: 6px;
     background: #f2f2f2;
@@ -46,9 +46,12 @@ body{
 .sectionTitle::after{
     content: "";
     display: block;
-    flex-basis: 30%;
+    flex-basis: 25%;
     height: 6px;
     background: #f2f2f2;
+}
+.sectionTitle{
+    font-size: 1.15rem;
 }
 
 .footer{
@@ -76,6 +79,9 @@ body{
 @media (max-width:750px){
     .nav{
         padding: .5rem 2rem !important;
+    }
+    .sectionTitle{
+        font-size: .85rem;
     }
     .nav .navList{
         display: none;

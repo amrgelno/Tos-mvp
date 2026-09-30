@@ -14,7 +14,7 @@ export default function KeyFeatures() {
     
   return (
     <div className="c keyFeatures_c flex flex-col justify-center gap-5">
-        <p className="sectionTitle sectionExampleTitle sm:text-xl lg:text-2xl">KEY FEATURES</p>
+        <p className="sectionTitle sectionExampleTitle">KEY FEATURES</p>
         <div className="keyFeatures flex flex-col md:flex-row flex-wrap gap-5">            
                 {keyFeatures.map((item,i)=>{
                     switch (i) {

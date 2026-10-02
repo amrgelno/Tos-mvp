@@ -28,9 +28,10 @@ export default function PageExample(props) {
                     {
                         page.map((item, itemIndex) => (
                             <div className="pageCard g-btn flex flex-col gap-5" key={itemIndex}>
+                                <img src={props.imgPath+item[1]} alt="" />
                                 <p className="pageCardTitle font-bold">{item[0]}</p>
                                 <ul className="pageCardList flex flex-col gap-5">
-                                    {item[1].map((info, infoIndex) => (
+                                    {item[2].map((info, infoIndex) => (
                                         <li className="pageCardListItem text-sm" key={infoIndex}>{info}</li>
                                     ))}
                                 </ul>

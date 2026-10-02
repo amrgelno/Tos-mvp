@@ -3,7 +3,7 @@
 {
     "navList":["Home", "Finance System", "CRM System", "ScreenShots"],
     "heroTitle":"Tourism Company Management System (Accounting + CRM)",
-    "heroText":"The system aims to manage the financial and administrative operations of the religious tourism company in an integrated manner.",
+    "heroText":"The system aims to manage the administrative operations of the tourism company in an integrated manner.",
     "screenShotsBtn":"Screenshots",
     "title": "Raporlar",
     "icon": "TbReportAnalytics",
@@ -39,7 +39,7 @@
     "financeSystemCardData":[
     [
       [
-        "Bank Account Management",
+        "Bank Account Management","Bank_Account_Management.jpeg",
         [
         "Ability to add multiple bank accounts, including bank details (name, account number, currency, notes)",
         "View the current balance for each account",
@@ -49,7 +49,7 @@
         ]
       ],
       [
-        "Cash Vault/Till Management",
+        "Cash Vault/Till Management","Cash_Vault_Till_Management.jpeg",
         [
             "Defining company cash vaults/tills (e.g., head office vault, branch till, supervisor's till)",
             "Entering opening balances",
@@ -59,7 +59,7 @@
         ]
       ],
       [
-        "Receipts",
+        "Receipts","Receipts.jpeg",
         [
         "Generate a receipt when: a customer makes a cash payment at the company premises",
         "Receipt details include: receipt number and date; customer name and contact number; amount and payment method (transfer or cash); name of the bank or cash fund where the amount was deposited; and the name of the user who issued the receipt",
@@ -67,14 +67,14 @@
         ]
       ],
       [
-        "Simplified Financial Entries:",
+        "Simplified Financial Entries:","Simplified_Financial_Entries.jpeg",
         [
           "Simplified Financial Entries: Operating expenses (rent, electricity, commissions, transportation, etc.) / Internal transfers between banks and cash vaults",
           "Each entry includes: Date - Description - Debit Account - Credit Account - Amount"
         ]
       ],
       [
-        "Company Balances",
+        "Company Balances","Company_Balances.jpeg",
         [
           "Real-time view of the balance for each bank and cash fund individually.",
           "View of the company's total aggregate balance (sum of bank accounts + cash funds).",
@@ -86,7 +86,7 @@
     "crmSystemCardData" :  [
     [
       [
-        "Recording basic customer details",
+        "Recording basic customer details","Recording_basic_customer_details.jpeg",
         [
           "Full name (four-part)",
           "National ID or passport number",
@@ -98,7 +98,7 @@
         ]
       ],
       [
-        "Registering a Customer Without a Booking",
+        "Registering a Customer Without a Booking","Registering_a_Customer_Without_a_Booking.jpeg",
         [
             "A new customer can be registered without being linked to a specific trip, allowing their data to be saved for future communication or marketing purposes.",
             "The customer can later be converted into a 'booking customer' once the desired trip is selected.",
@@ -107,7 +107,7 @@
         ]
       ],
       [
-        "Booking Management",
+        "Booking Management","Booking_Management.jpeg",
         [
             "Link the booking to an existing customer profile without needing to re-enter their data.",
             "Record trip details associated with the customer, such as:",
@@ -121,7 +121,7 @@
         ]
       ],
       [
-        "Linking with Receipts and Payments",
+        "Linking with Receipts and Payments","Linking_with_Receipts_and_Payments.jpeg",
         [
             "Each receipt is automatically linked to the customer's name.",
             "All receipts and payments associated with the customer appear in their profile.",
@@ -132,7 +132,7 @@
         ]
         ],
         [
-        "Search and Inquiry",
+        "Search and Inquiry","Search_and_Inquiry.jpeg",
         [
             "The system provides a dedicated page for easily searching and querying customers and bookings using:",
             "Name / Phone Number / Receipt Number / Trip Type",

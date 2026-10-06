@@ -24,7 +24,7 @@ export default function ScreenShots() {
     //   }
     // </div>
 
-    <SlideshowLightbox className="c screenShots_c grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto">
+    <SlideshowLightbox className="screenShots_c grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto">
       {/* {
         images.map((item,i)=>{
           return   <div className="img_c"><img className="w-full rounded" key={i} src={item} alt="" loading="lazy"/></div>

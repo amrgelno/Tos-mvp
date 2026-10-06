@@ -7,9 +7,24 @@
 .img_c img{
     border-radius: 1rem;
 }
+.screenShots_c{
+    padding: 2rem !important;
+}
 .screenShotImg{
     padding: 1rem !important;
     background: #484848;
     border-radius: 1rem;
     overflow: hidden;
+}
+
+@media (max-width:750px){
+    .screenShots_c{
+    padding: 2rem !important;
+}
+}
+
+@media (min-width:750px){
+    .screenShots_c{
+    padding: 2rem 5rem !important;
+}
 }

@@ -7,3 +7,9 @@
 .img_c img{
     border-radius: 1rem;
 }
+.screenShotImg{
+    padding: 1rem !important;
+    background: #484848;
+    border-radius: 1rem;
+    overflow: hidden;
+}

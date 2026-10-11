@@ -12,7 +12,7 @@
 }
 .pageCard {
     border-radius: 1rem;
-    padding: 0.99rem;
+    padding: 0.89rem;
 }
 /* .pageCard:nth-child(even)
 } */
@@ -24,6 +24,6 @@
 
     text-align:center;
     list-style-type: square;
-    direction: rtl;
+    direction: ltr;
     text-align: right;
 }

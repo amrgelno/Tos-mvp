@@ -21,6 +21,7 @@
 }
 
 .pageCardList{
+    place-items: center;
     list-style-type: square;
     direction: rtl;
     text-align: right;

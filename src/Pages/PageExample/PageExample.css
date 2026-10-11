@@ -12,7 +12,7 @@
 }
 .pageCard {
     border-radius: 1rem;
-    padding: 0.89rem;
+    padding: 1.2rem;
 }
 /* .pageCard:nth-child(even)
 } */
@@ -22,7 +22,7 @@
 
 .pageCardList{
 
-    text-align:center;
+    text-align:left;
     list-style-type: square;
     direction: ltr;
     text-align: right;

@@ -10,9 +10,9 @@
 .pageCards_c{
     direction: rtl;
 }
-.pageCard{
-    padding: 2rem;
+.pageCard {
     border-radius: 1rem;
+    padding: 0.99rem;
 }
 /* .pageCard:nth-child(even)
 } */

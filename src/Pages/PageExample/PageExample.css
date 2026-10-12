@@ -10,9 +10,9 @@
 .pageCards_c{
     direction: rtl;
 }
-.pageCard{
-    padding: 2rem;
+.pageCard {
     border-radius: 1rem;
+    padding: 1.2rem;
 }
 /* .pageCard:nth-child(even)
 } */
@@ -21,7 +21,15 @@
 }
 
 .pageCardList{
+
+    text-align:left;
     list-style-type: square;
-    direction: rtl;
+    direction: ltr;
     text-align: right;
 }
+
+.pageCard img , video {
+    max-width: 100%;
+    height: 130px;
+}
+

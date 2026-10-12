@@ -83,6 +83,7 @@ body{
     .sectionTitle{
         text-align: center;
         font-size: .85rem;
+        text-align: center;
     }
     .nav .navList{
         display: none;

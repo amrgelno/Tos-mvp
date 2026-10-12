@@ -42,7 +42,7 @@
 .heroBtn{
     background: #f95210d8;
     color: #fff;
-    padding: .5rem 3rem;
+    padding: 1.1rem 1.6rem;
     width: fit-content;
     border-radius: 2rem;
     cursor:pointer;
@@ -52,10 +52,11 @@
     background: #fff;
     color: #626262;
 }
-.heroInfoBtn{
+.heroInfoBtn {
     background: #7443f15a;
     border-radius: 2rem;
-    padding: .5rem 1rem;
+    padding: 0.5rem 2rem;
+    text-align: -webkit-center;
 }
 
 

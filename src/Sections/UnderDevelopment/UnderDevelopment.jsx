@@ -11,7 +11,7 @@ export default function UnderDevelopment() {
         <p className="sectionTitle sectionExampleTitle">UNDER DEVELOPMENT</p>
         <div className="underDevelopment flex flex-col md:flex-row flex-wrap gap-5">
             {underDevelopmentList.map((item,i)=>{
-                return <DCard title={item}/>
+                return <DCard key={i} title={item}/>
             })}
         </div>
     </div>

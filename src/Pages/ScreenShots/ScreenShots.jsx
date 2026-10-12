@@ -16,20 +16,8 @@ import {SlideshowLightbox} from 'lightbox.js-react'
 export default function ScreenShots() {
   const images = [img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8,img_9,img_10,img_11]
   return (
-    // <div className='c screenShots_c grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-    //   {
-    //     images.map((item,i)=>{
-    //       return   <div className="img_c"><img key={i} src={item} alt="" loading="lazy"/></div>
-    //     })
-    //   }
-    // </div>
 
     <SlideshowLightbox className="screenShots_c grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto">
-      {/* {
-        images.map((item,i)=>{
-          return   <div className="img_c"><img className="w-full rounded" key={i} src={item} alt="" loading="lazy"/></div>
-        })
-      } */}
       {
         images.map((item,i)=>{
           return   <img className="screenShotImg w-full rounded" key={i} src={item} alt="" loading="lazy"/>

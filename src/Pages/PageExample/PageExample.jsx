@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./PageExample.css"
 import { SectionExample } from "../../Components";
 import { useTranslation } from 'react-i18next';
+import {SlideshowLightbox} from 'lightbox.js-react'
 
 export default function PageExample(props) {
     const {t} = useTranslation()
@@ -24,11 +25,13 @@ export default function PageExample(props) {
             </div>
             <p className="PageTitle text-3xl w-full text-center font-bold">{props.pageTitle}</p>
             {props.pageCardListItem.map((page, pageIndex) => (
-                <div className="pageCards_c grid sm:grid-cols-1 md:grid-cols-5 gap-5 " key={pageIndex}>
+                <div className="pageCards_c grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 " key={pageIndex}>
                     {
                         page.map((item, itemIndex) => (
                             <div className="pageCard g-btn flex flex-col gap-5" key={itemIndex}>
-                                <img src={props.imgPath+item[1]} alt="" />
+                                <SlideshowLightbox>              
+                                    <img src={props.imgPath+item[1]} alt="" />
+                                </SlideshowLightbox> 
                                 <p className="pageCardTitle font-bold">{item[0]}</p>
                                 <ul className="pageCardList flex flex-col gap-5">
                                     {item[2].map((info, infoIndex) => (

@@ -12,7 +12,9 @@
       ["<MdOutlineDesignServices />","Simple and flexible:","Designed for ease of use with a clean and intuitive interface."],
       ["<IoMdTime />","Real-time monitoring:","Track your financial activity anytime, anywhere."],
       ["<MdOutlineSecurity />","Security and Oversight:","Robust protection and monitoring for your system."],
-      ["<HiOutlineRocketLaunch />","Fast and accurate:","It delivers high speed and precise performance."]
+      ["<HiOutlineRocketLaunch />","Fast and accurate:","It delivers high speed and precise performance."],
+      ["<HiOutlineLightBulb />","Smart features:","Working with Ai Tools."],
+      ["<MdOutlineIntegrationInstructions />","Easy integration:","Easy integration with any website and app via Third-party (api)."]
     ],
     "homeSection_1":[
         "crmSystem",

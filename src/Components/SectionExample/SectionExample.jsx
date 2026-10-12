@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./SectionExample.css"
+import {SlideshowLightbox} from 'lightbox.js-react'
 
 export default function SectionExample(props) {
   return (
@@ -11,7 +12,9 @@ export default function SectionExample(props) {
             {props.thumb
             ?
             <div className="sectionLargeCardVideo_c sm:w-full md:w-1/2">
-                <img src={props.thumb} alt="" loading="lazy"/>
+                <SlideshowLightbox>              
+                    <img src={props.thumb} alt="" loading="lazy"/>
+                </SlideshowLightbox> 
             </div>
             :
             ""

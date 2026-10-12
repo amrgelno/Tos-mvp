@@ -81,6 +81,7 @@ body{
         padding: .5rem 2rem !important;
     }
     .sectionTitle{
+        text-align: center;
         font-size: .85rem;
     }
     .nav .navList{

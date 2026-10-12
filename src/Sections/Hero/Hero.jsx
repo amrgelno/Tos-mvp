@@ -2,6 +2,7 @@ import "./Hero.css"
 import heroImg from "../../assets/images/heroImg.png"
 import heroImg_2 from "../../assets/images/heroImg_2.jpg"
 import { useTranslation } from 'react-i18next';
+import {SlideshowLightbox} from 'lightbox.js-react'
 
 export default function Hero() {
   const {t} = useTranslation()
@@ -9,20 +10,13 @@ export default function Hero() {
 
 
 <div className="CP heroContainer g-btn lex flex-col lg:flex-row justify-between items-center gap-3">
-        {/* <div className="heroRight">
-          <img src={heroImg} alt="" loading="lazy"/>
-        </div> */}
 
-        <div className="flip-card">
-          <div className="flip-card-inner">            
-            <div className="flip-card-front">
-              <img src={heroImg} alt="" />
-            </div>
-            <div className="flip-card-back">
-              <img src={heroImg_2} alt="" />
-            </div>
+        <div className="heroRight flip-card">        
+            <SlideshowLightbox className="flip-card-inner">              
+                    <img className="flip-card-front w-full rounded" src={heroImg} alt="" loading="lazy"/>
+                    <img className="flip-card-back w-full rounded" src={heroImg_2} alt="" loading="lazy"/>
+            </SlideshowLightbox> 
           </div>
-        </div>
         <div className="heroLeft text-center lg:text-right flex flex-col items-center lg:items-end gap-8">
           <p className="heroTitle text-3xl font-bold">{t("heroTitle")}</p>
           <p className="heroText text-lg font-medium">{t("heroText")}</p>

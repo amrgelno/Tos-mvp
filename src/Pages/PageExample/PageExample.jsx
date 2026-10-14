@@ -3,6 +3,7 @@ import "./PageExample.css"
 import { SectionExample } from "../../Components";
 import { useTranslation } from 'react-i18next';
 import {SlideshowLightbox} from 'lightbox.js-react'
+import priceImg from "/images/CrmSystemImages/Price_management.jpeg"
 
 export default function PageExample(props) {
     const {t} = useTranslation()
@@ -46,6 +47,7 @@ export default function PageExample(props) {
             {props.addSection
             ?
             <SectionExample 
+            thumb={priceImg}
             tag={t("umreSection_1")[0]}
             title={t("umreSection_1")[1]}
             LargeCardTitle = {t("umreSection_1")[2]}

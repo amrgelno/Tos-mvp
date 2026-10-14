@@ -21,11 +21,10 @@
 }
 
 .pageCardList{
-
     text-align:left;
     list-style-type: square;
-    direction: ltr;
     text-align: right;
+    padding: .5rem;
 }
 
 .pageCard img , video {
